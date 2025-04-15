@@ -1,6 +1,6 @@
 ML-NLP-GenAI
 
-Welcome to the **ML-NLP-GenAI** repository! This repo serves as a central hub for all my projects, experiments, notebooks, and learning materials related to **Machine Learning (ML)**, **Natural Language Processing (NLP)**, and **Generative AI (GenAI)** throughout my **MSDS (Master of Science in Data Science)** journey.
+Welcome to the **ML-NLP-GenAI** repository! This repo serves as a central hub for all my projects, experiments, notebooks, and learning materials related to **Machine Learning (ML)**, **Natural Language Processing (NLP)**, and **Generative AI (GenAI)** throughout my journey.
 
 📌 Purpose
 
@@ -26,7 +26,7 @@ ML-NLP-GenAI/
 ├── Utils/               # Helper scripts, common tools
 │
 ├── README.md            # This file
-└── requirements.txt     # Dependencies (to be added as needed)
+
 
 🧠 Key Areas of Focus
 
