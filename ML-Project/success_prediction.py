@@ -4,9 +4,16 @@ import numpy as np
 
 # Load the model and scaler
 @st.cache_resource
+import os
+from pathlib import Path
+
+# Get the current directory
+current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 def load_model():
-    model = joblib.load('success_model.pkl')
-    scaler = joblib.load('success_scaler.pkl')  # Assuming you saved the scaler
+    model_path = current_dir / "success_model.pkl"
+    scaler_path = current_dir / "success_scaler.pkl"
+    model = joblib.load(model_path) 
+    scaler = joblib.load(scaler_path)  # Assuming you saved the scaler
     return model, scaler
 
 st.title("🎮 Game Success Predictor")
