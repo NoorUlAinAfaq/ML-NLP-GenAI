@@ -9,8 +9,9 @@ from pathlib import Path
 
 
 # Get the current directory
-current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+
 def load_model():
+    current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
     model_path = current_dir / "success_model.pkl"
     scaler_path = current_dir / "success_scaler.pkl"
     model = joblib.load(model_path) 
