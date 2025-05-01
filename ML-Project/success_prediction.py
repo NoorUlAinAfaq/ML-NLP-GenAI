@@ -2,10 +2,11 @@ import streamlit as st
 import joblib
 import numpy as np
 import os
-# Load the model and scaler
+from pathlib import Path
+
 @st.cache_resource
 
-from pathlib import Path
+
 
 # Get the current directory
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
