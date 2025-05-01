@@ -1,10 +1,10 @@
 import streamlit as st
 import joblib
 import numpy as np
-
+import os
 # Load the model and scaler
 @st.cache_resource
-import os
+
 from pathlib import Path
 
 # Get the current directory
