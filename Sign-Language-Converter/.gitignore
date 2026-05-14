@@ -1,0 +1,40 @@
+ 
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Dataset (too large for GitHub, 1GB+)
+data/
+
+# Trained model files (large binary files)
+model/*.h5
+model/*.pkl
+model/*.keras
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
