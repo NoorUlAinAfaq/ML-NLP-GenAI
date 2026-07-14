@@ -8,7 +8,7 @@ mp_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(
     static_image_mode=False,      # False = video mode (faster)
-    max_num_hands=2,              # detect only 1 hand
+    max_num_hands=2,              # detect 2 hands
     min_detection_confidence=0.7, # how confident before detecting
     min_tracking_confidence=0.5   # how confident while tracking
 )
